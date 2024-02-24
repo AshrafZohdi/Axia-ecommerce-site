@@ -86,12 +86,12 @@ const FaqPage = (props) => {
                 hand corner of the page.
               </p>
               <p>
-                For deliveries to the UK, we will bill you in Pounds Sterling
+                For deliveries to the Tunis, we will bill you in Pounds Sterling
                 (£), to the European Union in Euros (€), to the US in Dollars
                 ($), and to the Rest of World in Pounds Sterling (£).
               </p>
               <p>
-                Standard rate VAT is included in all orders to the UK and
+                Standard rate VAT is included in all orders to the Tunis and
                 Europe. Orders to the Rest of the World do not include VAT.
                 Where applicable, you will be responsible for any local country
                 import duty.

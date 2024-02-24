@@ -86,47 +86,6 @@ const Footer = (prop) => {
                     handleChange={(_, e) => setEmail(e)}
                   />
                 </form>
-                <div className={styles.socialContainer}>
-                  {Config.social.youtube && (
-                    <div
-                      onClick={() => handleSocialClick('youtube')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'youtube'}></Icon>
-                    </div>
-                  )}
-
-                  {Config.social.instagram && (
-                    <div
-                      onClick={() => handleSocialClick('instagram')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'instagram'}></Icon>
-                    </div>
-                  )}
-
-                  {Config.social.facebook && (
-                    <div
-                      onClick={() => handleSocialClick('facebook')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'facebook'}></Icon>
-                    </div>
-                  )}
-
-                  {Config.social.twitter && (
-                    <div
-                      onClick={() => handleSocialClick('twitter')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'twitter'}></Icon>
-                    </div>
-                  )}
-                </div>
               </div>
             </div>
           </div>
@@ -168,12 +127,8 @@ const Footer = (prop) => {
               </div>
               <span>
                 {new Date().getFullYear()} (c) . Built by{' '}
-                <Button target={true} href="https://www.matterdesign.com.au/">
-                  Matter.
-                </Button>{' '}
-                Powered by{' '}
-                <Button target={true} href="https://jamm.matter.design/">
-                  JAMM.™
+                <Button target={true} href="">
+                  Axia Team.
                 </Button>
               </span>
             </div>
